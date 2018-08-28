@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+ 
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card{
+  height:366px;
+  width:650px;
+  background-image: url("./ggg.jpg"); 
+  border-radius: 20px;
+  margin: 10px;
+}
+.formulaire{
+  width:700px;
+  position: absolute;
+  right: -20px;
+  top: 100px;
+}
+
+.companyName{
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: 45px;
+}
+
+.number{
+  position: absolute;
+  color: white;
+  left: 50px;
+  top: 200px;
+}
+
+.date{
+  position: absolute;
+  color: white;
+  left: 370px;
+  top: 240px;
+}
+
+.name{
+  position: absolute;
+  color: white;
+  left: 50px;
+  top: 280px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+label{
+  font-size: 18px;
+  margin: 20px 0px;
+}
