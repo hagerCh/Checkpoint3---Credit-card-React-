@@ -16,16 +16,16 @@ class Form extends Component {
     render() {
         return (
             <div className="formulaire">
-                <label for="number" className='col-md-3'>Card number:</label>
+                <label  className='col-md-3'>Card number:</label>
                 <input type="number" name="number"  className='col-md-3' onChange={this.getNum}/>
                 <br/>
-                <label for="name" className='col-md-3'>Owner:</label>
+                <label  className='col-md-3'>Owner:</label>
                 <input type="text" name="name" className='col-md-3' onChange={this.getName}/>   
                 <br/>             
-                <label for="companyName" className='col-md-3'>Company:</label>
+                <label className='col-md-3'>Company:</label>
                 <input type="text" name="companyName" className='col-md-3' onChange={this.getComp}/>
                 <br/>
-                <label for="date" className='col-md-3'>Expiration date:</label>
+                <label  className='col-md-3'>Expiration date:</label>
                 <input type="text" className='col-md-3' name="date" onChange={this.getDate}/>
             </div>
         )
